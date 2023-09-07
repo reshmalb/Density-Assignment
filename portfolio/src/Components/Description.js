@@ -1,11 +1,16 @@
 import React from "react";
 import "./Description.css";
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-
+import {motion} from 'framer-motion'
 const Description = () => {
   return (
-    <>
-      <div className="description-container">
+  
+      <motion.div 
+         initial={{opacity:0}}
+         animate={{opacity:1}}
+         transition={{delay:1.5,duration:2}}
+      
+      className="description-container">
         <div className="header">
 
           <div className="profile-container">
@@ -41,8 +46,8 @@ const Description = () => {
 
         </div>
 
-      </div>
-    </>
+      </motion.div>
+    
   );
 };
 
