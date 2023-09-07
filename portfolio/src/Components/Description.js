@@ -5,11 +5,17 @@ import {motion} from 'framer-motion'
 import img1 from '../asset/images/page1.png'
 import img2 from '../asset/images/page2.png'
 import img3 from '../asset/images/page3.png'
+import bg1 from '../asset/images/bg1.png'
+import bg2 from '../asset/images/bg2.png'
+import bg3 from '../asset/images/bg3.png'
+import bg4 from '../asset/images/bg4.png'
+
 import profilepic from '../asset/images/profilepic.svg'
 
 
 const Description = () => {
   const [currentImage,setCurrentImage] = useState(1);
+  
 
 
   const images = [
@@ -26,10 +32,29 @@ const Description = () => {
     },
     {
       
+      url: bg1,
+      animationVariants: {
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5  }
+      },
+      },
+    },
+    {
+      
       url: img2,
       animationVariants: {
         hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5 ,type:"spring",stifness:300} },
+        visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5  }
+      },
+      },
+    },
+    {
+      
+      url: bg2,
+      animationVariants: {
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5  }
+      },
       },
     },
     {
@@ -37,6 +62,15 @@ const Description = () => {
       animationVariants: {
         hidden: { opacity: 0, rotate: -180 },
         visible: { opacity: 1, rotate: 0, transition: { delay: 0.5, duration: 1.5 } },
+      },
+    },
+    {
+      
+      url: bg3,
+      animationVariants: {
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5  }
+      },
       },
     },
   ];

@@ -4,7 +4,13 @@ import {motion} from 'framer-motion'
 
 const Page1 = () => {
   return (
-  <div className="sub-details-container-page1">
+  <motion.div 
+  initial={{opacity:0,scale:0,x:500}}
+  whileInView={{opacity:1,scale:1,x:0}}
+  transition ={{duration:0.6,delay:0.3}}
+  
+  
+  className="sub-details-container-page1">
     <div className="sub-details-header-page1">
         <ul className="ul-container-page1">
             <li className="sub-li-page1">Emotions</li>
@@ -28,7 +34,7 @@ const Page1 = () => {
       
                    
     </div>
-     </div>
+     </motion.div>
   )
 }
 

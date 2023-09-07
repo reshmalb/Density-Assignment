@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 const Reveal = ({ children, animationVariants }) => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const [inView, refInView] = useInView(ref,{once:true});
+  const [inView, refInView] = useInView(ref);
 
   useEffect(() => {
     if (inView) {

@@ -1,9 +1,15 @@
 import React from 'react'
 import './Page3.css'
+import {motion} from 'framer-motion'
+
 
 const Page3 = () => {
   return (
-    <div className="sub-details-content-page3">
+    <motion.div 
+    initial={{opacity:0,scale:0,x:500}}
+    whileInView={{opacity:1,scale:1,x:0}}
+    transition ={{duration:1,delay:0.8}} className="sub-details-content-page3">
+
       <div className='content-page3'>
         <h1>Work With Us</h1>
         <div className='content1'>
@@ -22,7 +28,7 @@ const Page3 = () => {
 
       </div>
     
-</div>
+</motion.div>
   )
 }
 
