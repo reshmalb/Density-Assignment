@@ -14,7 +14,7 @@ const Page1 = () => {
         </ul>
         
         <button className="btn-download">Download App</button>
-     </div>
+        </div>
       <div className="sub-details-content-page1">
         <div className='content-details'>
         <h6>Ahead App</h6>
