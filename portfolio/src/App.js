@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {motion} from 'framer-motion'
 
 
 import  Header from './Layout/Header'
@@ -19,13 +20,13 @@ function App() {
    <Header/>
      <div className='main-container'>
         <Description/>
-        <AboutMe/>  
+        <AboutMe />  
         <Page1/>
         <Page2/>
         <Page3/>
+        <Footer/>       
 
       </div>
-  {/* <Footer/> */}
   </div>
   );
 }

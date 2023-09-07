@@ -34,12 +34,34 @@
     
 
 }
+.nav-items-right{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-around;
+  font-size: 1rem;
+  font-style: bold;
+
+}
+.nav-items-right li{
+  margin-left: 3rem;
+  cursor: pointer;
+  padding-top: 15px;
+
+}
+.nav-items-right li:hover{
+  color:rgb(14, 13, 13);
+  padding-top: 15px;
+
+
+
+}
 li{
     margin-left: 3rem;
     cursor: pointer;
 }
 li:hover{
-    color:grey;
+    color:rgb(14, 13, 13);
 }
 .btn-signup{
     margin-left: 3rem;
@@ -54,8 +76,12 @@ li:hover{
     height: 50px;
     width: 100px;
     font-size: 16px;
-    
+    border: none;
+    cursor: pointer;
 
+}
+.btn-signup :hover{
+  background-color:black;
 }
 #mobile {
     display: none;

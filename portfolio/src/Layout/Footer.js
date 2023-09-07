@@ -6,11 +6,11 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer = () => {
   return (
     <div className='footer-container'>
-         <div className='logo-container'>
+         <div className='footer-logo-container'>
           Dribble
         </div>
-        <nav className='nav-container'>
-             <ul className='nav-items'>
+        <nav className='footer-nav-container'>
+             <ul className='footer-nav-items'>
                 <li> For Designers</li>
                 <li> Hire Talent</li>
                 <li> Insipiration</li>
@@ -21,8 +21,8 @@ const Footer = () => {
                 <li> Support</li>             
             </ul>
         </nav>
-        <nav className='nav-container'>
-            <ul className='social-items'>
+        <nav className='footer-nav-container'>
+            <ul className='footer-social-items'>
              <li><FacebookIcon/> </li>
              <li><InstagramIcon/></li>
              <li><TwitterIcon/></li>

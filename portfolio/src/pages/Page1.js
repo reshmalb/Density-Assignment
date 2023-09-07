@@ -3,20 +3,29 @@ import './Page1.css'
 
 const Page1 = () => {
   return (
-     <div className="sub-details-container">
-    <div className="sub-details-header">
-        <ul className="ul-container">
-            <li className="sub-li">Emotions</li>
-            <li className="sub-li">Manifesto</li>
-            <li className="sub-li">Self-awareness Test</li>
-            <li className="sub-li">Work With us</li>
+  <div className="sub-details-container-page1">
+    <div className="sub-details-header-page1">
+        <ul className="ul-container-page1">
+            <li className="sub-li-page1">Emotions</li>
+            <li className="sub-li-page1">Manifesto</li>
+            <li className="sub-li-page1">Self-awareness Test</li>
+            <li className="sub-li-page1">Work With us</li>
 
         </ul>
         
         <button className="btn-download">Download App</button>
      </div>
-      <div className="sub-details-content">
-                   content
+      <div className="sub-details-content-page1">
+        <div className='content-details'>
+        <h6>Ahead App</h6>
+        <h1>
+          Master your Life
+          <p> Mastering emotions</p>
+        </h1>
+
+        </div>
+      
+                   
     </div>
      </div>
   )

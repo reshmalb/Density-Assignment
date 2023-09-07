@@ -1,14 +1,15 @@
-.sub-details-container{
+.sub-details-container-page1{
+    background-image: url("");
     margin: 50px;
     background-color: white;
-    height:400px ;
+    height:600px ;
     border-radius: 5px;
     margin-left: 200px;
     margin-right:200px;
     border-radius: 20px;
 
 }
-.sub-details-header{
+.sub-details-header-page1{
     display: flex;
     justify-content: space-between;
     height: 40px;
@@ -16,13 +17,13 @@
     width: 100%;
 
 }
-.ul-container{
+.ul-container-page1{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.sub-li{
+.sub-li-page1{
     margin-left: 4rem;
     margin-top: 1rem;
 }
@@ -37,9 +38,27 @@
     font-size: 12px;
 
 }
-.sub-details-content{
-    background-color: rgb(168, 209, 209);
+.sub-details-content-page1{
+    background-color: rgb(223, 233, 188);
+    background-image: url("../asset/images/p1s.svg") ;
+    background-repeat: no-repeat;
+    background-size:auto;
     border-radius: 15px;
     width: 100%;
     height: 90%;
+}
+.content-details{
+    background-color: transparent;
+    margin-left: 100px;
+    padding-top: 200px;
+    
+
+}
+.content-details h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+.content-details h6{
+    font-size: 16px;
+    color: green;
 }

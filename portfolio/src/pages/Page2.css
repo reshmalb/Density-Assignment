@@ -1,45 +1,34 @@
-.sub-details-container{
-    margin: 50px;
-    background-color: white;
+
+.sub-details-content-page2{
+    margin-top: 40px;
+    background-color: rgb(248, 227, 241);
+    background-image: url("../asset/images/p3s.svg") ;
+    background-repeat: no-repeat;
+    background-size:auto;
+    border-radius: 15px;
+    width: 970px;
     height:400px ;
     border-radius: 5px;
     margin-left: 200px;
     margin-right:200px;
-    border-radius: 20px;
-
 }
-.sub-details-header{
+.content-page2 {
     display: flex;
-    justify-content: space-between;
-    height: 40px;
-    font-size: 12px;
-    width: 100%;
+    flex-direction: column;
+    
+}
+.content-page2 h6{
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 15px;
+}
+.content-page2 h1{
+    font-size: 40x;
+    margin-left: 550px;
 
 }
-.ul-container{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.sub-li{
-    margin-left: 4rem;
-    margin-top: 1rem;
-}
-.btn-download{
-    height: 25px;
-    width: 100px;
-    background-color: black;
-    border-radius: 12px;
-    color:white;
-    margin-top: 1rem;
-    margin-right: 3rem;
-    font-size: 12px;
+.content-right-page2 p{
+    line-height: 25px;
+    padding-left: 550px;
 
-}
-.sub-details-content{
-    background-color: rgb(168, 209, 209);
-    border-radius: 15px;
-    width: 100%;
-    height: 90%;
 }

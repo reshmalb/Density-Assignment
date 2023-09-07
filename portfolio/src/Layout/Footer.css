@@ -8,7 +8,7 @@
     width: 100%;
     margin-bottom: 0px;
 }
-.logo-container{
+.footer-logo-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +17,14 @@
     padding-left: 2px;
     margin-left: 2px;
 }
-.nav-container{
+.footer-nav-container{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;    
 
 }
-.social-items{
+.footer-social-items{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -34,10 +34,16 @@
     
 
 }
-li{
+.footer-nav-items{
+    list-style: none;
+    display: flex;
+
+
+}
+.footer-nav-items li{
     margin-left:1rem;
     cursor: pointer;
 }
-li:hover{
+.footer-nav-items li:hover{
     color:grey;
 }

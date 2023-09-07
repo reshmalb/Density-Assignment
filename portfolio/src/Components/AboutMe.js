@@ -1,9 +1,10 @@
 import React from 'react'
 import './AboutMe.css'
+import {motion} from 'framer-motion'
 
 const AboutMe = () => {
   return (
-    <div className='aboutme-container'>
+    <motion.div initial={{x:'-100vw'}} animate={{x:0}}className='aboutme-container'>
       <br></br>
       <br></br>
       <br></br>
@@ -31,7 +32,7 @@ Animation — Adobe After Effects
 <br></br>
 </p>
         
-  </div>
+  </motion.div>
   )
 }
 
