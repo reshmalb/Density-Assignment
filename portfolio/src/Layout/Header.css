@@ -63,7 +63,7 @@
 
 li{
     margin-left: 3rem;
-    cursor: pointer;
+    cursor: pointer!important;
 }
 
 .btn-signup{

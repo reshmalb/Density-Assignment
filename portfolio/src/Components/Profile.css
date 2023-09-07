@@ -1,0 +1,20 @@
+.profiledetails-container{
+    width:100px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: transparent;
+}
+.profile-image-wrapper{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid rgb(228, 222, 222);
+    cursor: pointer;
+}
