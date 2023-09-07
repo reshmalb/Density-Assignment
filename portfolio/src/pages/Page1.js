@@ -1,5 +1,6 @@
 import React from 'react'
 import './Page1.css'
+import {motion} from 'framer-motion'
 
 const Page1 = () => {
   return (

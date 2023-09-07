@@ -5,6 +5,8 @@ import {motion} from 'framer-motion'
 import img1 from '../asset/images/page1.png'
 import img2 from '../asset/images/page2.png'
 import img3 from '../asset/images/page3.png'
+import profilepic from '../asset/images/profilepic.svg'
+
 
 const Description = () => {
   const [currentImage,setCurrentImage] = useState(1);
@@ -39,7 +41,18 @@ const Description = () => {
     },
   ];
 
-
+  const buttonVariants={
+    hidden:{opacity: 0 },
+    visible:{opacity: 1, x: 40, y: -5 },
+    hover:{
+      scale: 1.1,
+      textShadow: "0px 0px 8px rgb(255,255,255",
+      boxShadow: "0px 0px 8px rgb(255,255,255",
+      transition:{
+        yoyo: Infinity,
+      }
+    }
+  }
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -64,14 +77,19 @@ const Description = () => {
         <div className="header">
 
           <div className="profile-container">
-            <div className="image"><PermIdentityIcon className="image-details"/></div>
+            <div className="image"><img className="profileimg" src={profilepic}></img></div>
             <div className="name-container">
                 <p>Ahead App Design Concept</p>
             
               <text>Taras Mikulko</text>         
           </div>
           </div>
-          <button className="btn-hire">Hire Me</button>
+          <motion.button
+          variants={buttonVariants}
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
+          className="btn-hire">Hire Me</motion.button>
         </div>
 
         <div className="sub-details">
