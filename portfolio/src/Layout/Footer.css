@@ -47,3 +47,45 @@
 .footer-nav-items li:hover{
     color:grey;
 }
+
+@media screen and (max-width: 769px){
+    .footer-logo-container{
+        display: none;
+
+    }
+    .footer-container{
+        width:auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 1rem;    
+    
+    }
+    .footer-nav-items li{
+        margin-left:0rem;
+        cursor: pointer;
+    }
+    .footer-social-items{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: flex-start;
+
+        font-size: 1rem;
+    
+    }
+    .footer-nav-items{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+}
