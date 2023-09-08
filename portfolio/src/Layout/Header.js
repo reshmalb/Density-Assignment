@@ -128,10 +128,6 @@ const buttonVariants={
             {" "}
             Go Pro
           </motion.li>
-        </ul>
-      </nav>
-      <nav className="nav-container-right">
-        <ul className="nav-items-right">
           <motion.li
              variants={listVariants}
              initial="hiddeb=n"
@@ -141,6 +137,11 @@ const buttonVariants={
           >
             Log in
           </motion.li>
+        </ul>
+      </nav>
+      <nav className="nav-container-right">
+        <ul className="nav-items-right">
+        
           <motion.button
           variants={buttonVariants}
           initial="hidden"
