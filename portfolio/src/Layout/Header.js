@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./Header.css";
 import { motion } from "framer-motion";
 import { grey } from "@mui/material/colors";
-
+import CloseIcon from '@mui/icons-material/Close';
+import ReorderIcon from '@mui/icons-material/Reorder';
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
-  const [isNavBarClicked, setNavBarClicked] = useState(true);
   const listVariants={
     hidden:{
       opacity:0,
@@ -52,8 +52,12 @@ const buttonVariants={
       initial={{ y: -250 }}
       animate={{ y: -5 }}
       transition={{ delay: 0.3, type: "spring", stiffness: 100 }}
-      className="header-container"
+      className="header-container mobile"
     >
+      <div id="mobile"  onClick={()=>setIsClicked((prev)=> !prev)} >
+       {isClicked === true ? (<CloseIcon/>):(<ReorderIcon/>)}
+    
+      </div>
       <div className="logo-container">
         <motion.h4
              whileHover={{
@@ -69,7 +73,14 @@ const buttonVariants={
           Dribble
         </motion.h4>
       </div>
-      <nav className="nav-container">
+
+
+     
+
+
+      <nav className=  { isClicked===true? "mobile-container":"nav-container"}>
+        
+
         <ul className="nav-items">
           <motion.li
           variants={listVariants}
@@ -141,12 +152,7 @@ const buttonVariants={
           </motion.button>
         </ul>
       </nav>
-      <div id="mobile" onClick={() => setIsClicked((prev) => !prev)}>
-        <i
-          id="bar"
-          className={isClicked === true ? "fa fa-times" : "fa fa-bars"}
-        ></i>
-      </div>
+      
     </motion.div>
   );
 };

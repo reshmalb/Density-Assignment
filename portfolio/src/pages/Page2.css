@@ -32,3 +32,49 @@
     padding-left: 550px;
 
 }
+@media screen and (max-width: 769px){
+
+
+    .sub-details-content-page2{
+        margin-top: 40px;
+        background-color: rgb(248, 227, 241);
+        background-image: url("../asset/images/p3s.svg") ;
+        background-repeat: no-repeat;
+        background-size:contain;
+        border-radius: 15px;
+        width: 400px;
+        height:600px ;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-page2 {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 200px;
+        
+    }
+    .content-page2 h6{
+        margin-top: 100px;
+        margin-left: 12px;
+        font-size: 10px;
+    }
+    .content-page2 h1{
+        font-size: 40x;
+        margin-left: 10px;
+    
+    }
+    .content-right-page2 p{
+        line-height: 25px;
+        padding-left: 10px;
+    
+    }
+
+}
+
+
+

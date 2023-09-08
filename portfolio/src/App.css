@@ -49,3 +49,32 @@ body{
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 769px){
+  .App{
+    display: block;
+    justify-content: flex-end;
+  }
+  .body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  
+  }
+  .left-section{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .right-section{
+    padding-left: 0;
+  
+  position: fixed;
+  padding-top: 200px;
+  height: 90vh;
+  }
+
+}

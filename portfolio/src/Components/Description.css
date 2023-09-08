@@ -15,10 +15,12 @@
     height:100px;
     width:100%;
     justify-content: space-between;
+    font-size: 1rem;
 }
 
 .profile-container{
     display: flex;
+    font-size: 1rem;
 }
 .name-container{
     display: flex;
@@ -100,4 +102,68 @@
     width: 40px;
     padding-top:0;
     margin-top: 0;
+}
+@media screen and (max-width: 769px){
+    .description-container{
+        height: 500px;
+        width:1000px;
+        background-color:transparent;
+        margin-left: 100px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        background-color:transparent;
+        height:500px;
+        width:100%;
+        justify-content: flex-start;
+      font-size: .5rem;
+
+    }
+    .profile-container{
+        display: flex;
+        font-size: .5rem;
+    }
+    .profile-containe p{
+        font-size: .7rem;
+        font-style: bold;
+
+
+    }
+    .btn-download{
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    border-radius: 12px;
+    color:white;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 12px;
+
+}
+.btn-hire{
+    height: 30px;
+    width:70px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+.sub-details{
+    background-color:lightgrey;
+    width:400px;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 0;
+
+}
+
 }

@@ -63,3 +63,60 @@
     font-size: 16px;
     color: green;
 }
+@media screen and (max-width: 769px){
+    .sub-details-container-page1{
+        background-image: url("");
+        margin: 50px;
+        background-color: white;
+        width:400px;
+        height:600px ;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right:100px;
+        border-radius: 20px;
+    
+    }
+
+    .sub-details-content-page1{
+        background-color: rgb(223, 233, 188);
+        background-image: url("../asset/images/p1s.svg") ;
+        background-repeat: no-repeat;
+        background-size:contain;
+        border-radius: 15px;
+        width: 400px;
+        /* width: 100%; */
+        height: 90%;
+    }
+    .sub-details-header-page1{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        width:auto;
+        font-size: 10px;
+        width: 100%;
+    
+    }
+    .ul-container-page1{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .content-details h1{
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .content-details h6{
+        font-size: 10px;
+        color: green;
+    }
+    .content-details{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        margin-left: auto;
+        padding-top: 200px;
+        
+    
+    }
+}

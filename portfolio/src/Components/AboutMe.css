@@ -5,7 +5,23 @@
     padding-left: 40px;
     margin-left: 200px;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-style: bold;
     line-height: 20px;
+}
+
+@media screen and (max-width: 769px){
+    .aboutme-container{
+        height: 400px;
+        width:400px;
+        background-color:transparent;
+        padding-left: 0px;
+        margin-left: 100px;
+        margin-top: 100px;
+        font-size: 1rem;
+        font-style: bold;
+        line-height: 25px;
+    }
+    
+
 }

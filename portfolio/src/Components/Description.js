@@ -117,7 +117,7 @@ const Description = () => {
             <img className="profileimg" src={profilepic}></img>
           </div>
           <div className="name-container">
-            <p style={{fontSize:"20px"}}>Ahead App Design Concept</p>
+            <p >Ahead App Design Concept</p>
 
             <text>Taras Mikulko</text>
           </div>
